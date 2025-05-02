@@ -1,0 +1,19 @@
+[project]
+name = "xml-to-graph"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kyochanpy",email = "nasu.9618.0527@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "xmltodict (>=0.14.2,<0.15.0)",
+    "neo4j (>=5.28.1,<6.0.0)",
+    "pydantic (>=2.11.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
